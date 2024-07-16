@@ -46,3 +46,6 @@ import os
 #removing a folder
 os.mkdir("new_folder")
 os.rmdir("new_folder")
+
+#Basic python file handling.
+# rest tommorrow

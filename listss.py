@@ -121,3 +121,48 @@ print(l2)
 
 l2.sort(key= str.lower)
 print(l2)
+int_list=[2, 7, 89, 77, 34, 109, 23, 89]
+int_list.reverse()
+print("the reversed list is:" , int_list)
+int_list.sort(reverse=True)
+print("the descending order of list is:" ,int_list)
+
+#referencing a list
+list1=list2=["hi", "i", "am", "aravi"]
+list1.append("sharma")
+print(list1, list2)
+
+# making a copy
+# by copy()
+name=["Nezuko", "Zenitsu", "Genya", "Tanjiro", "Inosuke"]
+# age= name.copy()
+# print(age)
+# name.append("Kanao")
+# print(name)
+# print(age)
+#  by list()
+new_name= list(name)
+print(new_name)
+
+#joining 2 lists
+# using +
+name=["Nezuko", "Zenitsu", "Genya", "Tanjiro", "Inosuke"]
+age=[14, 16, 16, 15, 15]
+info= name+age
+print (info)
+
+#by appending one list to another
+name=["Nezuko", "Zenitsu", "Genya", "Tanjiro", "Inosuke"]
+for i in age:
+  name.append(i)
+print(name)
+
+#by extend
+name=["Nezuko", "Zenitsu", "Genya", "Tanjiro", "Inosuke"]
+name.extend(age)
+print(name)
+
+#index
+name=["Nezuko", "Zenitsu", "Genya", "Tanjiro", "Inosuke"]
+x=name.index("Genya")
+print(x)

@@ -6,7 +6,7 @@ file1=open("C:\\Users\\Aravi Sharma\\Downloads\\demon slayer.txt")
 
 # to read only the parts of the file
 print(file1.read(100))
-print(file1.readline())
+print(file1.readlines())
 # print(file.readline())
 # print(file.readline())
 for line in file:
@@ -49,3 +49,7 @@ os.rmdir("new_folder")
 
 #Basic python file handling.
 # rest tommorrow
+# file=open("Text_File.txt", "rb+")
+# buffer= file.detach()
+# file.close()
+# buffer.close()

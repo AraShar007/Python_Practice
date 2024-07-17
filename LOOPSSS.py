@@ -8,7 +8,7 @@
 #
 # x=0
 # while not( 1<=x<=100):
-#     x=int(input("Enter a num b/w 1 and 100:"))
+#     x=int(input("Enter a num b/w 1 and 100:"))c
 # print("valid")
 #
 # for i in range(3):

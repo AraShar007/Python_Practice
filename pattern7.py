@@ -1,20 +1,19 @@
 # n = int(input("enter n: "))
 # for i in range(n):
-#     for j in range(i+1):
+#     for j in range(i, n):
 #         print(" ", end='')
-#     for k in range(i,2*n-i-1):
+#     for k in range(0,2*i-1):
 #         print("*", end='')
-#     for j in range(i+1):
+#     for j in range(1, n):
 #         print(" ", end='')
 #     print()
 
-#can be dome like
+# #can also be done
 n = int(input("enter n: "))
 for i in range(n):
-    for j in range(i+1):
+    for j in range(n-i-1):
         print(" ", end='')
-    for k in range(i, n-1):
-        print("*", end='')
-    for l in range(i,n):
+    for k in range(2*i+1):
         print("*", end='')
     print()
+

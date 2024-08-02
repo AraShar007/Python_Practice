@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4cc7ddb-90e6-47fd-926f-94c5333b6f58" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dev" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AraShar007&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AraShar007/Python_Practice.git&quot;,
+    &quot;accountId&quot;: &quot;848146e4-d26e-4555-89cb-bea43323411e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jJMCvT23iUN8EpqA7HBAQmy8Ca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Abstract_Base_Class.executor": "Run",
+    "Python.Bubblesort.executor": "Run",
+    "Python.File_Handling.executor": "Run",
+    "Python.LOOPSSS.executor": "Run",
+    "Python.Map.executor": "Run",
+    "Python.Pattern3.executor": "Run",
+    "Python.abstract.executor": "Run",
+    "Python.anshu_pattern.executor": "Run",
+    "Python.armstrong.executor": "Run",
+    "Python.array.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.check_list_empty.executor": "Run",
+    "Python.common_list.executor": "Run",
+    "Python.comparing lists.executor": "Run",
+    "Python.constructor.executor": "Run",
+    "Python.copy_list.executor": "Run",
+    "Python.count_a.executor": "Run",
+    "Python.count_occurence.executor": "Run",
+    "Python.count_strings.executor": "Run",
+    "Python.delete_specific_line.executor": "Run",
+    "Python.dict_prac3.executor": "Run",
+    "Python.dict_practice.executor": "Run",
+    "Python.dict_practice2.executor": "Run",
+    "Python.dictionary.executor": "Run",
+    "Python.dictionary_sorted.executor": "Run",
+    "Python.factorial.executor": "Run",
+    "Python.fav_movies.executor": "Run",
+    "Python.file_handling_changingNames.executor": "Run",
+    "Python.file_handling_checkLineofWord.executor": "Run",
+    "Python.file_handling_checking_Word.executor": "Run",
+    "Python.file_handling_print_count.executor": "Run",
+    "Python.first_last.executor": "Run",
+    "Python.first_n_natural.executor": "Run",
+    "Python.for _if.executor": "Run",
+    "Python.func.executor": "Run",
+    "Python.handling_file.executor": "Run",
+    "Python.hierarchical.executor": "Run",
+    "Python.init.executor": "Run",
+    "Python.key_func.executor": "Run",
+    "Python.lambda.executor": "Run",
+    "Python.largest_list.executor": "Run",
+    "Python.listss.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.matrix.executor": "Run",
+    "Python.max_list.executor": "Run",
+    "Python.modifier.executor": "Run",
+    "Python.mul.executor": "Run",
+    "Python.mul_list.executor": "Run",
+    "Python.multilevel.executor": "Run",
+    "Python.multiple.executor": "Run",
+    "Python.namespace.executor": "Run",
+    "Python.nested_dict.executor": "Run",
+    "Python.nested_loops.executor": "Run",
+    "Python.new array.executor": "Run",
+    "Python.np3.executor": "Run",
+    "Python.np5.executor": "Run",
+    "Python.np6.executor": "Run",
+    "Python.num_patt2.executor": "Run",
+    "Python.num_pattern1.executor": "Run",
+    "Python.oops.executor": "Run",
+    "Python.override.executor": "Run",
+    "Python.palindrome.executor": "Run",
+    "Python.parametrised_constructor.executor": "Run",
+    "Python.pattern.executor": "Run",
+    "Python.pattern10.executor": "Run",
+    "Python.pattern11.executor": "Run",
+    "Python.pattern12.executor": "Run",
+    "Python.pattern13.executor": "Run",
+    "Python.pattern14.executor": "Run",
+    "Python.pattern15.executor": "Run",
+    "Python.pattern16.executor": "Run",
+    "Python.pattern2.executor": "Run",
+    "Python.pattern4.executor": "Run",
+    "Python.pattern5.executor": "Run",
+    "Python.pattern6.executor": "Run",
+    "Python.pattern7.executor": "Run",
+    "Python.pattern8.executor": "Run",
+    "Python.pattern9.executor": "Run",
+    "Python.practice_oops.executor": "Run",
+    "Python.random_swap.executor": "Run",
+    "Python.recursive.executor": "Run",
+    "Python.remove_duplicates.executor": "Run",
+    "Python.remove_even.executor": "Run",
+    "Python.remove_items.executor": "Run",
+    "Python.repr and str.executor": "Run",
+    "Python.seek_binary.executor": "Run",
+    "Python.seek_file.executor": "Run",
+    "Python.set_method.executor": "Run",
+    "Python.sets.executor": "Run",
+    "Python.shuffle_list.executor": "Run",
+    "Python.single_inheritance.executor": "Run",
+    "Python.smallest.executor": "Run",
+    "Python.sort.executor": "Run",
+    "Python.sorted_last_element.executor": "Run",
+    "Python.substrings.executor": "Run",
+    "Python.sum_list.executor": "Run",
+    "Python.tuplesss.executor": "Run",
+    "Python.words_larger_than_N.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "aravi",
+    "last_opened_file_path": "C:/Users/Aravi Sharma/Downloads/Python_Practice-main/Python_Practice-main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject\dev\python" />
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject\dev\Python_Practice" />
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject\Python_Practice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject\dev\python" />
+      <recent name="C:\Users\Aravi Sharma\PycharmProjects\pythonProject\dev" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4cc7ddb-90e6-47fd-926f-94c5333b6f58" name="Changes" comment="" />
+      <created>1721100603180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721100603180</updated>
+    </task>
+    <task id="LOCAL-00001" summary="studied tuples">
+      <option name="closed" value="true" />
+      <created>1721126259635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721126259635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="studied tuples">
+      <option name="closed" value="true" />
+      <created>1721130291597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721130291597</updated>
+    </task>
+    <task id="LOCAL-00003" summary="studied file handling">
+      <option name="closed" value="true" />
+      <created>1721130395484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721130395484</updated>
+    </task>
+    <task id="LOCAL-00004" summary="studied file handling">
+      <option name="closed" value="true" />
+      <created>1721188236661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721188236661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721199100012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721199100012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721201089966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721201089966</updated>
+    </task>
+    <task id="LOCAL-00007" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721217420244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721217420244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721218742045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721218742045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721219583683</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721219583683</updated>
+    </task>
+    <task id="LOCAL-00010" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721219640238</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721219640238</updated>
+    </task>
+    <task id="LOCAL-00011" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721238282462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721238282462</updated>
+    </task>
+    <task id="LOCAL-00012" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721298012284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298012284</updated>
+    </task>
+    <task id="LOCAL-00013" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721298024377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298024377</updated>
+    </task>
+    <task id="LOCAL-00014" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721298115137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298115137</updated>
+    </task>
+    <task id="LOCAL-00015" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721298137308</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721298137308</updated>
+    </task>
+    <task id="LOCAL-00016" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721299776665</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721299776665</updated>
+    </task>
+    <task id="LOCAL-00017" summary="loops basic">
+      <option name="closed" value="true" />
+      <created>1721299812225</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721299812225</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/aravi" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="studied tuples" />
+    <MESSAGE value="studied file handling" />
+    <MESSAGE value="patterns basic" />
+    <MESSAGE value="patterns" />
+    <MESSAGE value="pattern question" />
+    <MESSAGE value="practiced lists, dictionary" />
+    <MESSAGE value="practice" />
+    <MESSAGE value="loops basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="loops basic" />
+  </component>
+</project>

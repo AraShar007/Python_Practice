@@ -1,4 +1,4 @@
-with open("seekText.txt","rb") as file:
+with open("seekText.txt", "rb") as file:
     print(file.readlines())
     # file.seek(0)
     print(file.tell())

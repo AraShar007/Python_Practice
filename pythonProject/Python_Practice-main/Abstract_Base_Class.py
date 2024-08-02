@@ -24,10 +24,14 @@ class NormalClass(AbstractClass, MyABC2):
     def area(self):
         print("Implementation of area")
 
+class aravi:
+    pass
+
 obj = NormalClass()
 obj.func1()
 obj.func2()
 obj.area()
 obj.describe()
-
-print(type(AbstractClass))
+print("Type of normal class is",type(NormalClass))
+print("Type of abstract class is",type(AbstractClass))
+print(type(aravi))

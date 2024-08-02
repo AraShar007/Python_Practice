@@ -15,5 +15,8 @@ f1.walk()
 f1.reproduce()
 m1.walk()
 m1.talk()
+print(type(Humans)) # Shows that Humans itself is a class object created by the metaclass type.
+print(type(Humans())) #Shows that Humans() is an instance of the Humans class.
+print(type(f1))
 
 

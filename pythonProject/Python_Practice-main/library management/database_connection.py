@@ -8,8 +8,7 @@ def create_connection():
             database="library"
         )
         if connection.is_connected():
-            print("Successfully connected to the database")
-        return connection
+            return connection
     except Exception as e:
         print(f"Error in connecting: {e}")
         return None

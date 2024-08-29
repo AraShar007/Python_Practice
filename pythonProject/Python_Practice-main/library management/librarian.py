@@ -11,7 +11,7 @@ class Librarian(User):
             print(f"Librarian with ID {self.user_id} does not exist or password is incorrect.")
             return False
         else:
-            print(f"Librarian {row[1]} logged in.\n")
+            print("Librarian",  {row[1]}, "logged in.\n")
             return True
 
     def display_menu(self):
@@ -102,73 +102,14 @@ class Librarian(User):
             print("No books found.")
 
     def issue_book(self):
-        sid = input("Enter Student ID to issue book to: ")
+        sid = input("Enter Student ID who wants to issue book: ")
         student = Student(self.connection, sid, None)
-        student.view_borrow_history()
-
-        self.view_books()
-        bid = int(input("Enter Book ID to issue: "))
-
-        try:
-            cursor = self.connection.cursor()
-            cursor.execute("Select * from borrow_history where sid = %s AND bid = %s AND is_returned = False",
-                           (sid, bid))
-            existing_borrow_record = cursor.fetchone()
-
-            if existing_borrow_record:
-                print(f"Student ID {sid} already borrowed this book {bid}.")
-                return
-
-            cursor.execute("Select status, availability_count from books where bid = %s", (bid,))
-            book = cursor.fetchone()
-
-            if book and book[0] and book[1] > 0:
-                cursor.execute(
-                    "INSERT INTO borrow_history (sid, bid, borrow_date, return_date, is_returned) VALUES (%s, %s, NOW(), DATE_ADD(NOW(), INTERVAL 15 DAY), False)",
-                    (sid, bid))
-                cursor.execute("Update books set availability_count = availability_count - 1 where bid = %s", (bid,))
-                if book[1] - 1 == 0:
-                    cursor.execute("Update books set status = FALSE where bid = %s", (bid,))
-                self.connection.commit()
-                print("Book issued successfully.")
-            else:
-                print("Book is not available.")
-        except Exception as e:
-            print(f"Error in issuing book: {e}")
+        student.view_books = self.view_books
+        student.borrow_book()
 
     def return_book(self):
-        sid = input("Enter Student ID to return book: ")
+        sid = input("Enter Student ID who wants to return book: ")
         student = Student(self.connection, sid, None)
-        student.view_borrow_history()
-        bid = int(input("Enter Book ID to return: "))
-        try:
-            cursor = self.connection.cursor()
-            cursor.execute("Select hid from borrow_history where sid = %s AND bid = %s AND is_returned = False",
-                           (sid, bid))
-            borrow_record = cursor.fetchone()
-
-            if not borrow_record:
-                print(f"No active borrow record found for student ID {sid} and book ID {bid}.")
-                return
-
-            cursor.execute("Update borrow_history set return_date = NOW(), is_returned = True where hid = %s",
-                           (borrow_record[0],))
-            self.connection.commit()
-
-            cursor.execute("Update books set availability_count = availability_count + 1 where bid = %s", (bid,))
-            self.connection.commit()
-
-            cursor.execute("Select availability_count from books where bid = %s", (bid,))
-            availability_count = cursor.fetchone()[0]
-
-            if availability_count > 0:
-                cursor.execute("Update books set status = TRUE where bid = %s", (bid,))
-                self.connection.commit()
-
-            print(f"Book ID {bid} returned successfully by student ID {sid}.")
-        except Exception as e:
-            print(f"Error in returning book: {e}")
-
-
+        student.return_book()
 
 

@@ -45,6 +45,7 @@ def lib_main():
                 while True:
                     user.display_menu()
                     choice = input("\nEnter your choice: ")
+
                     if user_role == 'librarian':
                         if choice == '1':
                             user.add_book()
@@ -66,6 +67,7 @@ def lib_main():
                             return
                         else:
                             print("Invalid choice. Please try again.\n")
+
                     if user_role == 'student':
                         if choice == '1':
                             user.borrow_book()
